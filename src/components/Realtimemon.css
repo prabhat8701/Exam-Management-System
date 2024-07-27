@@ -1,0 +1,36 @@
+.real-time-monitoring {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.exam-status {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.student-list {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.student-list h2 {
+    margin-bottom: 10px;
+}
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.student-table th {
+    background-color: #f2f2f2;
+}

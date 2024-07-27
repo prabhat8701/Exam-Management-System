@@ -1,0 +1,174 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    display: flex;
+    /* Display the main content section as flex */
+    align-items: center;
+    /* Center items vertically */
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+    margin-left: 20px;
+    /* Grow to fill available space */
+}
+
+.image-section {
+    margin-left: 20px;
+    /* Add some margin between the content and image */
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.additional-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.feature,
+.testimonial {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.feature ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial {
+    text-align: center;
+}
+
+.hme-gs-btn {
+
+    background-color: #9d4edd;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    font-weight: bolder;
+    margin-left: 200px;
+
+
+}
+
+.Register-section p {
+    margin-left: 25px;
+
+}
+
+.registr-btn {
+    background-color: #9d4edd;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    font-weight: bolder;
+    margin-left: 700px;
+    margin-bottom: 100px;
+
+}
+
+.hme-gs-btn:hover {
+    background-color: #5a189a;
+}
+
+.registr-btn:hover {
+    background-color: #5a189a;
+}
+
+.hme-main-hdng {
+    color: #5a189a;
+    font-size: 30px;
+}
+
+.testimonials {
+    padding: 50px 0;
+}
+
+.testimonials h2 {
+    text-align: center;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial {
+    max-width: 400px;
+    padding: 20px;
+    margin: 0 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.testimonial p {
+    margin-bottom: 10px;
+}
+
+.testimonial .author {
+    font-style: italic;
+}
+
+.Register-section img {
+    margin-left: 600px;
+
+}
+
+
+
+
+
+
+.service-us-section,
+.our-clients-section {
+    width: 45%;
+    /* Adjust width as needed */
+    padding: 20px;
+    background-color: #f2f2f2;
+    /* Adjust background color as needed */
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add shadow for a card-like effect */
+}
+
+.our-clients-section {
+    text-align: left;
+    /* Align client names to the left */
+}
+
+.client-logos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    /* Adjust spacing as needed */
+}
+
+.client-logos img {
+    width: 100px;
+    /* Adjust image size as needed */
+    height: auto;
+    margin-right: 10px;
+    /* Adjust spacing between logos as needed */
+}

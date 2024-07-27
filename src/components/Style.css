@@ -1,0 +1,184 @@
+.Navbar {
+  position: fixed;
+  /* Fixed positioning */
+  top: 0;
+  /* Position at the top of the viewport */
+  left: 0;
+  width: 100%;
+  display: flex;
+  background-color: rgba(255, 255, 255, 1);
+  justify-content: space-between;
+  /* Distribute items evenly along the main axis */
+  align-items: center;
+  /* Align items vertically */
+
+  padding: 10px 20px;
+  /* text-align: center;
+  height: 50px;
+  padding-top: 20px; */
+  /* padding: 20px 17px; */
+  font-size: 20px;
+}
+
+.nav-container {
+  display: flex;
+  margin-left: 400px;
+}
+
+.Navbar a {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  /* margin-right: 15px;
+    color: white; */
+  margin: 0 10px;
+  color: inherit;
+}
+
+.Navbar a:hover {
+  color: #E0AAFF;
+
+}
+
+body {
+  padding-top: 60px;
+}
+
+.Navbar .active {
+  color: #5a189a;
+}
+
+form {
+  /* border: 1px solid black; */
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+  background: #e0aaff;
+  margin: auto;
+  margin-top: 100px;
+  padding: 70px;
+  text-align: center;
+}
+
+input {
+  width: 300px;
+
+}
+
+label {
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+form a {
+  text-decoration: none;
+
+}
+
+form button {
+  margin-top: 10px;
+}
+
+
+
+.form-div {
+  margin-top: -20px;
+}
+
+.input-cls {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.content-texts h1 {
+  font-size: 40px;
+  color: #5a189a
+}
+
+.content-texts p {
+  font-size: 20px;
+  color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  flex: 1;
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 0px;
+}
+
+.content-texts {
+  flex: 1;
+  text-align: center;
+}
+
+
+.button3 {
+  background-color: #5a189a;
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  /* display: flex; */
+  margin-left: 700px;
+  /* margin-right: auto; */
+
+}
+
+.logo {
+  display: flex;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+
+.footer {
+  background-color: #3c096c;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-section h3 {
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.log-for-cont {
+  margin-bottom: 30px;
+}
+
+.sign-cont {
+  margin-bottom: 30px;
+}
+
+.hme-cont-two {
+  display: flex;
+}

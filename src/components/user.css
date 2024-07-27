@@ -1,0 +1,47 @@
+/* UserPage.css */
+.user-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .functions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .function {
+    margin-right: 20px;
+  }
+  
+  .function:last-child {
+    margin-right: 0;
+  }
+  
+  .function span {
+    margin-left: 5px;
+  }
+  
+  .exam-list {
+    margin-bottom: 20px;
+  }
+  
+  .exam-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .exam-list li {
+    margin-bottom: 10px;
+  }
+  
+  .profile-info {
+    margin-bottom: 20px;
+  }
+  
+  .profile-info p {
+    margin-bottom: 5px;
+  }
+  

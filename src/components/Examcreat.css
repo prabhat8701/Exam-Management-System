@@ -1,0 +1,91 @@
+.exam-creation-page {
+    max-width: 600px;
+    height: 750px;
+    /* margin:  auto; */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 200px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-bottom: 50px; */
+}
+
+.exam-creation-page h1 {
+    font-size: 28px;
+    margin-bottom: -25px;
+    text-align: center;
+
+}
+
+.exam-creation-page form {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.exam-creation-page label {
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: lighter;
+
+}
+
+.exam-creation-page input[type="text"],
+.exam-creation-page input[type="number"],
+.exam-creation-page textarea,
+.exam-creation-page select {
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exam-creation-page select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
+}
+
+.exam-creation-page textarea {
+    resize: vertical;
+}
+
+.exam-creation-page button[type="submit"] {
+    padding: 12px 24px;
+    background-color: #9d4edd;
+    ;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+}
+
+.exam-creation-page button[type="submit"]:hover {
+    background-color: #5a189a;
+}
+
+.labinstruct {
+    width: 300px;
+
+}
+
+.labformt {
+    width: 320px;
+}

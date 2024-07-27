@@ -1,0 +1,68 @@
+.about-us-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-us-page h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.overview-section,
+.mission-vision-values-section,
+.team-section,
+.contact-section {
+    margin-bottom: 40px;
+}
+
+.overview-section h2,
+.mission-vision-values-section h2,
+.team-section h2,
+.contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.mission-vision-values-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.mission-vision-values-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.mission-vision-values-section ul li {
+    margin-bottom: 10px;
+}
+
+/* Style for team members section */
+.team-section .team-member {
+    margin-bottom: 20px;
+}
+
+/* Style for contact information */
+.contact-section p {
+    margin-bottom: 10px;
+}
+
+.team-section {
+    margin-bottom: 40px;
+    text-align: center; /* Center align the team member sections */
+}
+
+.team-member {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the content within each team member section */
+}
+
+.team-member img {
+    width: 150px; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image round */
+    margin-bottom: 10px;
+}

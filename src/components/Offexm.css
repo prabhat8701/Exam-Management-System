@@ -1,0 +1,58 @@
+.offline-exam-support {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.offline-exam-support h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.offline-exam-support form div {
+    margin-bottom: 15px;
+}
+
+.offline-exam-support label {
+    display: block;
+    font-weight: bold;
+}
+
+.offline-exam-support input[type="text"],
+.offline-exam-support input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.offline-exam-support button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.offline-exam-support button:hover {
+    background-color: #0056b3;
+}
+
+.offline-exam-support .success-message,
+.offline-exam-support .error-message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.offline-exam-support .success-message {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.offline-exam-support .error-message {
+    background-color: #f44336;
+    color: #fff;
+}
